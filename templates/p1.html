@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='dec.css') }}"> 
+        <!-- important to note, that the location of filename by default, is going to look for things in a 'static' folder -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align:center;font-size:300%;color:blue;">WELCOME TO ABC HEALTHCARE</h1>
+        <h2 style="text-align:center;font-size:200%;color:rgb(255, 153, 0);">  Patient Portal</h2>
+        <h1 style="text-align:center;">Your portal to a Health Life</h1>
+      
+            
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* Communicate with your doctor</p>
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* View your recent clinic visit</p>
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* Request prescription renewal</p>
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* Request appointment</p>
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* View your test results</p>
+        <img src="static\health.gif" alt="Paris" style="width:10%;">
+            
+
+
+        <p style=font-size:100%;color:blue;> sign in</p>
+        <button> Username</button>
+        <button class="specialButton1">  Password</button> 
+        <div class="Button-SN">
+        </button><a class="SN" href="#">
+            Forget Username 
+            and/or Password</a></div>
+      
+
+        <h1 style="text-align:center;color:blue;">The button Element</h1>
+
+       
+        <h1 style="text-align:center;">
+
+                <button class="SN"  onclick="alert('Please contact our office in the event you need to cancel appointment')">  Upcoming Appointment</button> 
+                <button class="SN"  onclick="alert('Please contact SharedLab for your testing results')">  Lab</button> 
+                <button class="SN" onclick="alert('Please contact CVS Pharmacy for your prescribed medications')">  Prescription</button> 
+                <button class="SN" onclick="alert('Schedule your preventive care services.  You are due for 4 preventive care services')">Messages</button>
+        
+                <div class="Button-SN">
+                </button><a class="SN" href="#">Feedback</a></div>
+        
+            
+
+
+
+
+
+
+
+
+    </body>
+</html>

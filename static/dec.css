@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(240, 255, 243)
+    font-size:300%;
+    
+}
+    
+h {
+    font-size: 40em;
+    font-weight: bolder;
+    margin-right: 20px;
+    padding: 100;
+    position: middle
+}
+
+/* this is the code that would style ALL buttons */
+button { 
+    background-color: rgb(44, 146, 146);
+    color:rgb(225, 255, 0)
+}
+.SN{ 
+    position:absolute; 
+    display: inline-block;
+    top:50%; 
+    left:50%; 
+    width:150px; 
+    border: 125px solid #fcfcfc; 
+    color:rgb(255, 0, 89)
+    line-height: 40px; 
+    margin-top:-20px; 
+    margin-left:-75px; 
+}   
+
+/* this is create a custom style that will only be applied to a 'class' called specialButton1 */
+.specialButton1 {
+    background-color: #ad2121;
+    color: #509488;
+}
